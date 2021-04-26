@@ -820,7 +820,7 @@ ignoreErrors = ["error-remote-getjson"]
         # located in "themes/CodeIT/assets/data/emoji/" directory
         # you can store your own data files in the same path under your project:
         # "assets/data/emoji/"
-        emoji = "facebook.yml"
+        emoji = "assets/data/emoji/"
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
         enable = false
