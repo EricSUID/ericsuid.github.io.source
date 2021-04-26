@@ -569,7 +569,7 @@ ignoreErrors = ["error-remote-getjson"]
 [author]
   name = "EricSUID"
   email = ""
-  link = ""
+  link = "https://ericsuid.netlify.app"
 
 # Sitemap config
 [sitemap]

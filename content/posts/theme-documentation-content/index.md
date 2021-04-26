@@ -9,7 +9,6 @@ authorLink: "https://suntprogramator.dev/"
 description: "了解如何在 CodeIT 主题中快速, 直观地创建和组织内容."
 resources:
   - name: "featured-image"
-    src: "featured-image.jpg"
 
 tags: ["content", "Markdown"]
 categories: ["documentation"]

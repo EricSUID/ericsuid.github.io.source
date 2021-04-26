@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 6
 title: "主题文档 - 基本概念"
 date: 2020-03-06T21:40:32+08:00
 lastmod: 2020-03-06T21:40:32+08:00
@@ -9,12 +9,11 @@ authorLink: "https://suntprogramator.dev/"
 description: "探索 Hugo - CodeIT 主题的全部内容和背后的核心概念."
 resources:
   - name: "featured-image"
-    src: "featured-image.jpg"
 
 tags: ["installation", "configuration"]
 categories: ["documentation"]
 
-lightgallery: true
+lightgallery: false
 
 toc:
   auto: false
@@ -153,7 +152,7 @@ hugo serve
 
 去查看 `http://localhost:1313`.
 
-![基本配置下的预览](basic-configuration-preview.zh-cn.png "基本配置下的预览")
+![基本配置下的预览](basic-configuration-preview.png "基本配置下的预览")
 
 {{< admonition tip >}}
 当你运行 `hugo serve` 时, 当文件内容更改时, 页面会随着更改自动刷新.
@@ -782,7 +781,7 @@ hugo
 你可以参考它来配置你的社交链接.
 {{< /admonition >}}
 
-![完整配置下的预览](complete-configuration-preview.zh-cn.png "完整配置下的预览")
+![完整配置下的预览](complete-configuration-preview.png "完整配置下的预览")
 
 ### 3.2 网站图标, 浏览器配置, 网站清单
 

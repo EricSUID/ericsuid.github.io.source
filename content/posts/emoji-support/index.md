@@ -9,7 +9,6 @@ authorLink: "https://suntprogramator.dev/"
 description: "Hugo 和 CodeIT 中的 Emoji 的用法指南."
 resources:
   - name: "featured-image"
-    src: "featured-image.jpg"
 
 tags: ["emoji"]
 categories: ["Markdown"]

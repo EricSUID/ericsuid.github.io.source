@@ -9,9 +9,10 @@ authorLink: "https://suntprogramator.dev/"
 description: "这篇文章展示了基本的 Markdown 语法和格式."
 resources:
   - name: "featured-image"
-    src: "featured-image.png"
 
+# 标签
 tags: ["Markdown", "HTML"]
+# 分类
 categories: ["Markdown"]
 
 lightgallery: true
