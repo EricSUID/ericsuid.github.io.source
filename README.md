@@ -1,5 +1,5 @@
 # ericsuid.github.io.source
 
-[![GitHub Actions](https://github.com/EricSUID/ericsuid.github.io/workflows/build/badge.svg)](https://github.com/EricSUID/ericsuid.github.io/actions)
+![GitHub](https://img.shields.io/github/license/ericsuid/ericsuid.github.io.source?style=flat-square)
 
 the source of https://ericsuid.github.io
