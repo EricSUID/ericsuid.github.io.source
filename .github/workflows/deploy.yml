@@ -33,5 +33,5 @@ jobs:
           personal_token: ${{ secrets.ACTIONS_DEPLOY_HUGOBLOG_KEY }}	# 发布到其他repo需要提供上面生成的personal access token
           publish_dir: ./public	# 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
           publish_branch: main	# 发布到哪个branch
-          commit_message: docs ${{ github.event.head_commit.message }}
+          commit_message: ${{ github.event.head_commit.message }} # 这个貌似没啥用...
           #full_commit_message: ${{ github.event.head_commit.message }}
