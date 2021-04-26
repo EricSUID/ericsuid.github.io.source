@@ -7,7 +7,7 @@ theme = "CodeIT"
 themesDir = "./themes"
 
 # website title
-title = "CodeIT"
+title = "C-137"
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -814,13 +814,13 @@ ignoreErrors = ["error-remote-getjson"]
         recordIP = true
         highlight = true
         enableQQ = true
-        serverURLs = "https://leancloud.hugoCodeIT.com"
+        serverURLs = ""
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/CodeIT/assets/data/emoji/" directory
         # you can store your own data files in the same path under your project:
         # "assets/data/emoji/"
-        emoji = ""
+        emoji = "apple.yml"
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
         enable = false
