@@ -1,6 +1,3 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://hub.fastgit.org/theNewDynamic/gohugo-theme-ananke.git
-[submodule "themes/zzo"]
-	path = themes/zzo
-	url = https://hub.fastgit.org/zzossig/hugo-theme-zzo.git
+[submodule "themes/CodeIT"]
+	path = themes/CodeIT
+	url = https://github.com/sunt-programator/CodeIT.git
