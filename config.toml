@@ -803,8 +803,8 @@ ignoreErrors = ["error-remote-getjson"]
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = true
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        appId = "PEXFvsNB6ztmbKsbOGb9kEpO-MdYXbMMI"
+        appKey = "6HX8thaiTVwnRWU85DDefkMl"
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -813,7 +813,7 @@ ignoreErrors = ["error-remote-getjson"]
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = false
+        enableQQ = true
         serverURLs = "https://leancloud.hugoCodeIT.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
