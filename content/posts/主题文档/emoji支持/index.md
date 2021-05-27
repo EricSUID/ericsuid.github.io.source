@@ -1,8 +1,8 @@
 ---
-weight: 5
+weight: 1
 title: "Emoji 支持"
-date: 2019-10-01T17:55:28+08:00
-lastmod: 2019-10-01T17:55:28+08:00
+date: 2021-05-27T20:49:11+08:00
+lastmod: 2021-05-27T20:49:11+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
@@ -11,7 +11,7 @@ resources:
   - name: "featured-image"
 
 tags: ["emoji"]
-categories: ["Markdown"]
+categories: ["文档"]
 
 lightgallery: true
 ---

@@ -3,20 +3,24 @@ weight: 1
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
+# 草稿
 draft: false
 author: "EricSUID"
 authorLink: "https://erissuid.netlify.app"
-description: "这里写一句话描述"
+description: "这里写一句话描述, 或写一段摘要"
 
-# 标签
-tags: ["灵感", "生活"]
-# 分类
-categories: ["随记"]
+# 标签(这里修改)
+tags: ["Java", "开发", "Linux", "记录", "算法", "灵感", "生活"]
+# 分类(这里修改)
+categories: ["documentation", "随记"]
 
+# 启用首页和文章头图
 lightgallery: true
 
-# 悬浮目录不自动收缩
+# 悬浮目录 不自动收缩
 toc:
   auto: false
+math:
+  enable: true
 ---
 

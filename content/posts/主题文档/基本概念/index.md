@@ -1,19 +1,21 @@
 ---
-weight: 6
+weight: 5
 title: "主题文档 - 基本概念"
-date: 2020-03-06T21:40:32+08:00
-lastmod: 2020-03-06T21:40:32+08:00
+date: 2021-05-27T20:49:11+08:00
+lastmod: 2021-05-27T20:49:11+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
 description: "探索 Hugo - CodeIT 主题的全部内容和背后的核心概念."
 resources:
-  - name: "featured-image"
+  - name: "summary"
+    src: "summary.png"
 
 tags: ["installation", "configuration"]
-categories: ["documentation"]
+#categories: ["documentation"]
+categories: ["文档"]
 
-lightgallery: false
+lightgallery: true
 
 toc:
   auto: false

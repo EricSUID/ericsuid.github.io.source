@@ -1,8 +1,8 @@
 ---
 weight: 4
 title: "Markdown 基本语法"
-date: 2019-12-01T21:57:40+08:00
-lastmod: 2020-01-01T16:45:40+08:00
+date: 2021-05-27T20:49:11+08:00
+lastmod: 2021-05-27T20:49:11+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
@@ -16,6 +16,8 @@ tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
 
 lightgallery: true
+toc:
+  auto: false
 ---
 
 这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.

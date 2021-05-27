@@ -1,17 +1,19 @@
 ---
-weight: 2
+weight: 3
 title: "主题文档 - 内容"
-date: 2020-03-05T16:30:05+08:00
-lastmod: 2020-03-05T16:30:05+08:00
+date: 2021-05-27T20:49:11+08:00
+lastmod: 2021-05-27T20:49:11+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
 description: "了解如何在 CodeIT 主题中快速, 直观地创建和组织内容."
 resources:
-  - name: "featured-image"
+  - name: "summary"
+    src: "summary.png"
 
 tags: ["content", "Markdown"]
-categories: ["documentation"]
+#categories: ["documentation"]
+categories: ["文档"]
 
 lightgallery: true
 
