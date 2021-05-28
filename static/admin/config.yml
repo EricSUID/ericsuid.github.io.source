@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# media_folder: static/img
+# public_folder: /img
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+
+# # 启用首页和文章头图
+# lightgallery: true
+
+# # 悬浮目录 不自动收缩
+# toc:
+#   auto: false
+# math:
+#   enable: true
+    fields:
+      - { label: 'weight', name: 'weight', widget: 'number', default: 1 }
+      - { label: 'Title', name: 'title', widget: 'string', default: '' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', date_format: "YYYY-MM-DD", time_format: "HH:mm:ss" }
+      - { label: 'LastMod', name: 'lastmod', widget: 'datetime', date_format: "YYYY-MM-DD", time_format: "HH:mm:ss" }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
+      - { label: 'Author', name: 'author', widget: 'string', default: 'EricSUID' }
+      - { label: 'AuthorLink', name: 'authorLink', widget: 'string', default: 'https://erissuid.netlify.app' }
+      - { label: 'Description', name: 'description', widget: 'string', defaut: '这里写一句话描述, 或写一段摘要' }
+
+      - { label: 'Tags', name: 'tag', widget: 'list', default: ["Java", "开发", "Linux", "记录", "算法", "灵感", "生活"] }
+      - { label: 'Categories', name: 'categories', widget: 'list', default: ["documentation", "随记"] }
+      
+      - { label: 'Body', name: 'body', widget: 'markdown' }
