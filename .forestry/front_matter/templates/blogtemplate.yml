@@ -1,0 +1,48 @@
+---
+label: blogTemplate
+hide_body: false
+fields:
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: text
+  name: author
+  label: author
+- type: text
+  name: authorLink
+  label: authorLink
+- type: text
+  name: description
+  label: description
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: boolean
+  name: lightgallery
+  label: lightgallery
+- type: field_group
+  name: toc
+  label: toc
+  fields:
+  - type: boolean
+    name: auto
+    label: auto
+- type: field_group
+  name: math
+  label: math
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
