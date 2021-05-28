@@ -6,33 +6,73 @@ fields:
 - type: number
   name: weight
   label: weight
+  default: 1
+  description: 权重，数字越小在首页显示越靠上
 - type: text
   name: title
   label: title
+  description: 标题
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
+  description: 创建日期
+  default: now
+  config:
+    date_format: YYYY-MM-DD
+    time_format: HH:mm:ss
+    display_utc: true
+    export_format: YYYY-MM-DD
 - type: datetime
   name: lastmod
   label: lastmod
+  description: 修改日期
+  config:
+    date_format: YYYY-MM-DD
+    time_format: HH:mm:ss
+    display_utc: true
+    export_format: YYYY-MM-DD
+  default: now
 - type: text
   name: author
   label: author
+  default: EricSUID
+  description: 作者名
 - type: text
   name: authorLink
   label: authorLink
+  description: 首页作者链接
+  default: https://erissuid.netlify.app
 - type: text
   name: description
   label: description
-- type: list
-  name: tags
+  description: 描述
+  default: 这里写一句话描述, 或写一段摘要
+- name: tags
+  type: tag_list
+  default:
+  - Java
+  - 开发
+  - Linux
+  - 记录
+  - 算法
+  - 灵感
+  - 生活
   label: tags
-- type: list
-  name: categories
+  description: 标签
+- name: categories
+  type: tag_list
+  default:
+  - documentation
+  - 随记
   label: categories
+  description: 分类
 - type: boolean
   name: lightgallery
   label: lightgallery
+  default: true
+  description: 启用首页和文章头图
 - type: field_group
   name: toc
   label: toc
@@ -40,6 +80,7 @@ fields:
   - type: boolean
     name: auto
     label: auto
+    description: 悬浮目录是否自动收缩
 - type: field_group
   name: math
   label: math
@@ -47,3 +88,4 @@ fields:
   - type: boolean
     name: enable
     label: enable
+    default: true
