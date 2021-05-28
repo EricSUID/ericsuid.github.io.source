@@ -9,26 +9,31 @@ sections:
   label: About
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/categories
   label: Categories
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/posts
   label: Posts
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/tags
   label: Tags
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
+  exclude: _index.md
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
