@@ -89,3 +89,5 @@ fields:
     name: enable
     label: enable
     default: true
+pages:
+- content/posts/主题文档/outfile2.md
