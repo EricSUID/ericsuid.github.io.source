@@ -34,11 +34,19 @@ fields:
     display_utc: true
     export_format: YYYY-MM-DD
   default: now
-- type: text
-  name: author
+- name: author
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: author
-  default: EricSUID
-  description: 作者名
+  description: 作者
 - type: text
   name: authorLink
   label: authorLink
