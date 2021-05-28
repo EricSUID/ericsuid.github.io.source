@@ -1,4 +1,92 @@
 ---
-label: blogTemplate
+label: blogTemp
 hide_body: true
-fields: []
+fields:
+- name: weight
+  type: number
+  label: weight
+  description: 权重，首页这个数字越小越靠上显示
+  default: 1
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+  description: 文中标题
+- name: date
+  type: datetime
+  label: date
+  description: 创建时间
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: HH:mm:ss +8:00
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: now
+- name: lastmod
+  type: datetime
+  label: lastmod
+  description: 修改时间
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: draft
+  type: boolean
+  label: draft
+  description: 是否草稿
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+  description: 作者名
+  default: EricSUID
+- name: authorlink
+  type: text
+  config:
+    required: false
+    max: 
+  label: authorLink
+  description: 首页作者名的链接
+  default: https://erissuid.netlify.app
+- name: description
+  type: textarea
+  default: 这里写一句话描述, 或写一段摘要
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+  description: 描述
+- name: tags
+  type: tag_list
+  default:
+  - Java
+  - 开发
+  - Linux
+  - 记录
+  - 算法
+  - 灵感
+  - 生活
+  label: tags
+  description: 标签
+- name: categories
+  type: tag_list
+  default:
+  - documentation
+  - 随记
+  label: categories
+  description: 分类
+- name: lightgallery
+  type: boolean
+  label: lightgallery
+  description: 启用首页和文章的头图
