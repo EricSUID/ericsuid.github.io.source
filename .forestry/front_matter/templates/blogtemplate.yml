@@ -1,6 +1,7 @@
 ---
 label: blogTemplate
 hide_body: false
+display_field: title
 fields:
 - type: number
   name: weight
