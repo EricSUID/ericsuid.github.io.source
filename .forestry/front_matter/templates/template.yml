@@ -1,4 +1,13 @@
 ---
 label: template
 hide_body: true
-fields: []
+fields:
+- name: java
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Java
